@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+ini_set('memory_limit','-1');
+$input = file_get_contents('php://stdin');
+$a = unserialize($input);
+var_export($a);
