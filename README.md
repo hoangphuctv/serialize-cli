@@ -33,3 +33,11 @@ array (
 )
 
 ```
+
+### install
+
+```
+cd /tmp && git clone https://github.com/hoangphuctv/serialize-cli.git && cd serialize-cli/ && chmod +x *serialize && cp *serialize /usr/local/bin/
+```
+
+
