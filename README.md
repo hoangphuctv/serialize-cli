@@ -34,7 +34,7 @@ array (
 
 ```
 
-### install
+### Install with git
 
 ```
 cd /tmp && \
@@ -43,6 +43,13 @@ cd serialize-cli/ && \
 chmod +x *serialize && \
 sudo cp *serialize /usr/local/bin/ && \
 rm -rf /tmp/serialize-cli/
+```
+
+
+### Install without git
+```
+curl https://raw.githubusercontent.com/hoangphuctv/serialize-cli/master/serialize | sudo tee /usr/local/bin/serialize
+curl https://raw.githubusercontent.com/hoangphuctv/serialize-cli/master/unserialize | sudo tee /usr/local/bin/unserialize
 ```
 
 ### uninstall
