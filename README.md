@@ -50,6 +50,7 @@ rm -rf /tmp/serialize-cli/
 ```bash
 curl https://raw.githubusercontent.com/hoangphuctv/serialize-cli/master/serialize | sudo tee /usr/local/bin/serialize
 curl https://raw.githubusercontent.com/hoangphuctv/serialize-cli/master/unserialize | sudo tee /usr/local/bin/unserialize
+chmod +x /usr/local/bin/*serialize
 ```
 
 ### Uninstall
